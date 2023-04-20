@@ -1,0 +1,44 @@
+.base-popup{
+  font-family: Inter, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgb(102, 102, 102, 0.4);
+  z-index: 100;
+
+  &__close-btn{
+    position: absolute;
+    top: 30px;
+    right: 22px;
+    cursor: pointer;
+  }
+
+  &__content{
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 834px;
+    box-shadow: 0 30px 38px rgba(37, 37, 37, 0.1);
+    padding: 30px 40px;
+    position: absolute;
+
+    @media screen and (max-width: 868px){
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%;
+      max-width: 617px;
+    }
+  }
+
+  &__title{
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 63px;
+    color: #000000;
+    text-align: left;
+  }
+}

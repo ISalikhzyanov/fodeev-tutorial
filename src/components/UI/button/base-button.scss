@@ -1,0 +1,26 @@
+.base-button{
+  display: flex;
+  width: 100%;
+  column-gap: 12px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  height: 36px;
+  padding: 8px 16px;
+  cursor: pointer;
+
+  &__text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    color: #FFFFFF;
+  }
+}
+
+.green{
+  background-color: #55C97B;
+}
+
+.gray{
+  background-color: #B1B1B1;
+}

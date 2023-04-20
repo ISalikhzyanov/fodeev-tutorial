@@ -1,0 +1,47 @@
+.error{
+
+  &__message{
+    position: fixed;
+    top: 50%;
+    width: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1.5px solid #55C97B;
+    border-radius: 10px;
+    @media (max-width: 768px) {
+      width: 90%;
+    }
+  }
+
+  &__header{
+    text-align: center;
+    border-bottom: 1px solid #55C97B;
+    padding: 10px 0;
+  }
+
+  &__body{
+    padding: 20px 40px;
+    text-align: justify;
+  }
+
+  &__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #55C97B;
+    text-decoration: none;
+    text-align: center;
+    height: 40px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    width: calc(100% - 80px);
+    margin: 20px 40px;
+    cursor: pointer;
+
+    &:hover{
+      color: #FFFFFF;
+      cursor: pointer;
+    }
+  }
+
+}

@@ -1,0 +1,25 @@
+.base-input{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+
+  &__input{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    color: #343434;
+    border: 1px solid #55C97B;
+    border-radius: 4px;
+    height: 36px;
+    padding-left: 14px;
+
+    &::placeholder {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      color: #000000;
+    }
+  }
+}

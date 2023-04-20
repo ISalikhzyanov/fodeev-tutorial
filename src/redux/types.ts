@@ -1,0 +1,13 @@
+export const LOGIN = 'LOGIN'
+export const LOGOUT = 'LOGOUT'
+export const FETCH_TASKS = 'FETCH_TASKS'
+export const ADD_TASK = 'ADD_TASK'
+export const GET_EDIT_TASK = 'GET_EDIT_TASK'
+export const SHOW_LOADER = 'SHOW_LOADER'
+export const HIDE_LOADER = 'HIDE_LOADER'
+export const SHOW_EDIT_POPUP = 'SHOW_EDIT_POPUP'
+export const HIDE_EDIT_POPUP = 'HIDE_EDIT_POPUP'
+export const SHOW_ADD_POPUP = 'SHOW_ADD_POPUP'
+export const HIDE_ADD_POPUP = 'HIDE_ADD_POPUP'
+
+export const REQUEST_LOGIN ='REQUEST_LOGIN'
